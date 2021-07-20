@@ -10,9 +10,13 @@ xfce4-power-manager &
 
 picom -cb & 
 
+redshift &
+
 flameshot &
 
 numlockx &
+
+rm -rf /home/darklord/.cache &
 
 /bin/bash /home/darklord/.dwm/scripts/wallpaper.sh &
 

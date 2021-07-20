@@ -54,6 +54,7 @@ DIR=$(dirname "$LOC")
 . "$DIR/bar-functions/dwm_battery.sh"
 . "$DIR/bar-functions/dwm_alsa.sh"
 . "$DIR/bar-functions/dwm_date.sh"
+. "$DIR/syyu-log.sh"
 #. "$DIR/bar-functions/dwm_weather.sh"
 
 while true; do
@@ -64,9 +65,9 @@ while true; do
 	get_bytes
 	download_speed=$(get_speed $download)
 	upload_speed=$(get_speed $upload)
-	
+    syyu	
 	dwm_backlight
 	
-	xsetroot -name "[$(< .resources)] [↑ $upload_speed ↓ $download_speed] [☀ $rate_final_2] [$(dwm_battery)] [$(dwm_alsa)] [$(dwm_date)]"
+	xsetroot -name "[$(< .resources)] [↑ $upload_speed ↓ $download_speed] [☀ $rate_final_2] [$(dwm_battery)] [$(dwm_alsa)] [$(dwm_date)] [☯ $time_final]"
 	sleep 1
 done
