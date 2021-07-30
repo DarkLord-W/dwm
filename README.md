@@ -19,7 +19,8 @@ Screenshots:
 
 ![image](https://user-images.githubusercontent.com/42199147/126334201-a2247393-ff66-49c5-921f-1613c645d8be.png)
 
+![image](https://user-images.githubusercontent.com/42199147/127648931-f26a12b5-21ce-4f36-8151-286d8bbeaddd.png)
 
 
-![image-20210730192406661](https://gitee.com/SherLockW/cloudimage/raw/master//image-20210730192406661.png)
+
 
