@@ -2,24 +2,27 @@
 dwm dotfiles
 
 ```
-"pacman -Syyu"  --syyu-log.sh added
-	include syyu-log.sh && calculate_date.py
-	this script show you how long ago you updated your archlinux
+patches:
+dwm-alpha-20230401-348f655.diff
+dwm-autostart-20210120-cb3f58a.diff
+dwm-fixborders-6.2.diff
+dwm-hide_vacant_tags-6.3.diff
+dwm-pertag-20200914-61bb8b2.diff
+dwm-status2d-6.3.diff
+dwm-systray-6.4.diff
 
-PS:don't forget change file path in scripts
 ```
 
 ```
-alpha.diff && dwm-fixborders.diff added
-	Allow dwm to have translucent bars, while keeping all the text on it opaque
+PS:
+change your autostart script path && shortcuts layouts in the config.def.h
+
 ```
 
 Screenshots:
-![image](https://user-images.githubusercontent.com/42199147/126334103-9e272543-2b69-4f9a-91f4-bf983223c49a.png)
+![image](./screenshots/01.png)
 
-![image](https://user-images.githubusercontent.com/42199147/126334201-a2247393-ff66-49c5-921f-1613c645d8be.png)
-
-![image](https://user-images.githubusercontent.com/42199147/127648931-f26a12b5-21ce-4f36-8151-286d8bbeaddd.png)
+![image](./screenshots/02.png)
 
 
 
