@@ -59,7 +59,7 @@ static const unsigned int alphas[][3]      = { /* 透明度设置*/
 static const char *tags[] = {"" , "", "", "", "", "", "", "", "" };
 
 /*定义autostart脚本位置*/
-static const char *autostartscript = "/home/darklord/.dwm/scripts/autostart.sh";
+static const char *autostartscript = "/YourPath/scripts/autostart.sh";
 
 /* 自定义窗口显示规则 */
 /* class instance title 主要用于定位窗口适合哪个规则 */
@@ -115,11 +115,11 @@ static const char *blurlock[]  = { "blurlock", NULL };
 static const char *flameshot[]  = { "flameshot","gui", NULL };
 static const char *ranger[]    = { "terminator", "-e", "ranger", NULL };
 static const char *vim[]      = { "terminator", "-e", "vim", NULL };
-static const char *upvol[]   = { "/home/darklord/.dwm/scripts/vol-up.sh",  NULL };
-static const char *downvol[] = { "/home/darklord/.dwm/scripts/vol-down.sh",  NULL };
-static const char *mutevol[] = { "/home/darklord/.dwm/scripts/vol-toggle.sh",  NULL };
-static const char *uplight[]   = { "/home/darklord/.dwm/scripts/xlight-up.sh",  NULL };
-static const char *downlight[] = { "/home/darklord/.dwm/scripts/xlight-down.sh",  NULL };
+static const char *upvol[]   = { "/YourPath/scripts/vol-up.sh",  NULL };
+static const char *downvol[] = { "/YourPath/scripts/vol-down.sh",  NULL };
+static const char *mutevol[] = { "/YourPath/scripts/vol-toggle.sh",  NULL };
+static const char *uplight[]   = { "/YourPath/scripts/xlight-up.sh",  NULL };
+static const char *downlight[] = { "/YourPath/scripts/xlight-down.sh",  NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */

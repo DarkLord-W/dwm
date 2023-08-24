@@ -10,14 +10,14 @@ dwm-hide_vacant_tags-6.3.diff
 dwm-pertag-20200914-61bb8b2.diff
 dwm-status2d-6.3.diff
 dwm-systray-6.4.diff
-
 ```
 
 ```
 PS:
-change your autostart script path && shortcuts layouts in the config.def.h
-
+change your autostart script path && shortcuts layouts in the config.def.h 
 ```
+
+You can clone the scripts from https://github.com/DarkLord-W/scripts(https://github.com/DarkLord-W/scripts)
 
 Screenshots:
 ![image](./screenshots/01.png)
