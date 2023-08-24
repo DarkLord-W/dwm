@@ -17,7 +17,7 @@ PS:
 change your autostart script path && shortcuts layouts in the config.def.h 
 ```
 
-You can clone the scripts from https://github.com/DarkLord-W/scripts(https://github.com/DarkLord-W/scripts)
+`You can clone the scripts from` (https://github.com/DarkLord-W/scripts)
 
 Screenshots:
 ![image](./screenshots/01.png)
